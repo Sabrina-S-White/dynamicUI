@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <script src="./main.js" defer></script>
+  <title>Dnamic UI</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <button id="menuBtn">Menu</button>
+      <div class="menu" id="menu">
+        <ul class="menuList" id="menuList">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact</li>
+          <li>Shop</li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+      <div class="window">
+        <div class="leftBtn">
+          <button type="button" id="leftBtn"><svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M13,22L3,12L13,2V8H21V16H13V22M6,12L11,17V14H19V10H11V7L6,12Z" />
+        </svg></button>
+        </div>
+        <div class="rightBtn">
+          <button type="button" id="rightBtn">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M11,16H3V8H11V2L21,12L11,22V16M13,7V10H5V14H13V17L18,12L13,7Z" />
+            </svg>
+          </button>
+        </div>
+        <div class="windowBorder">
+          <div class="img" id="imgDiv1"><img src='./images/img1.jpg' class='sd' id='img1'/></div>
+          <div class="img hide" id="imgDiv2"><img src='./images/img2.jpg' id='img2'/></div>
+          <div class="img hide" id="imgDiv3"><img src='./images/img3.jpg' id='img3'/></div>
+          <div class="img hide" id="imgDiv4"><img src='./images/img4.jpg' id='img4'/></div>
+        </div>
+      </div>
+      <div class="circlesDiv" id="circlesDiv">
+        <div class="circle" id="circle1"></div>
+        <div class="circle" id="circle2"></div>
+        <div class="circle" id="circle3"></div>
+        <div class="circle" id="circle4"></div>
+      </div>
+  </main>
+</body>
+</html>

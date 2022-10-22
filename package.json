@@ -1,0 +1,19 @@
+{
+  "name": "dynamicui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sabrina-S-White/dynamicUI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sabrina-S-White/dynamicUI/issues"
+  },
+  "homepage": "https://github.com/Sabrina-S-White/dynamicUI#readme"
+}
